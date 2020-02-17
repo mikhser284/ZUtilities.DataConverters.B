@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtilities.DataConverters.B", "ZUtilities.DataConverters.B\ZUtilities.DataConverters.B.csproj", "{B79C60B2-1399-40E9-9897-21F37A93F430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtilities.DataConverters.B", "ZUtilities.DataConverters.B\ZUtilities.DataConverters.B.csproj", "{B79C60B2-1399-40E9-9897-21F37A93F430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtilities.DataConvertes.B.CUI", "ZUtilities.DataConvertes.B.CUI\ZUtilities.DataConvertes.B.CUI.csproj", "{AE357A07-527A-477A-BC1E-E570C45FD9F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtilities.DataConvertes.B.CUI", "ZUtilities.DataConvertes.B.CUI\ZUtilities.DataConvertes.B.CUI.csproj", "{AE357A07-527A-477A-BC1E-E570C45FD9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtilities.DataConverters.B.GUI", "ZUtilities.DataConverters.B.GUI\ZUtilities.DataConverters.B.GUI.csproj", "{A75C2E36-2A91-42FF-AB79-75C5EDEF1378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZUtilities.DataConverters.B.GUI", "ZUtilities.DataConverters.B.GUI\ZUtilities.DataConverters.B.GUI.csproj", "{A75C2E36-2A91-42FF-AB79-75C5EDEF1378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUtilities.DataConverters.B.GUI.CustomCtrls", "ZUtilities.DataConverters.B.GUI.CustomCtrls\ZUtilities.DataConverters.B.GUI.CustomCtrls.csproj", "{BCB4BF9A-E6A3-478A-BDB4-506CCB2D5DB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A75C2E36-2A91-42FF-AB79-75C5EDEF1378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A75C2E36-2A91-42FF-AB79-75C5EDEF1378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A75C2E36-2A91-42FF-AB79-75C5EDEF1378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB4BF9A-E6A3-478A-BDB4-506CCB2D5DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB4BF9A-E6A3-478A-BDB4-506CCB2D5DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB4BF9A-E6A3-478A-BDB4-506CCB2D5DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB4BF9A-E6A3-478A-BDB4-506CCB2D5DB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

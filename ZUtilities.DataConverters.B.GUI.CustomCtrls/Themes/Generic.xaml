@@ -1,0 +1,9 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:ZUtilities.DataConverters.B.GUI.CustomCtrls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/ZUtilities.DataConverters.B.GUI.CustomCtrls;component/Controls/AppMenu/AppMenuCtrl.xaml"/>
+        <ResourceDictionary Source="/ZUtilities.DataConverters.B.GUI.CustomCtrls;component/Controls/ItemsTable/ItemsTableCtrl.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

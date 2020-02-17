@@ -13,13 +13,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ZUtilities.DataConverters.B.GUI
+namespace ZUtilities.DataConverters.B.GUI.CustomCtrls
 {
-    public partial class MainWindow : Window
+    public class CustomControl1 : Control
     {
-        public MainWindow()
+        static CustomControl1()
         {
-            InitializeComponent();
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
         }
     }
 }

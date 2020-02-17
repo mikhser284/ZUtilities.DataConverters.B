@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZUtilities.DataConverters.B.GUI.CustomCtrls\ZUtilities.DataConverters.B.GUI.CustomCtrls.csproj" />
+  </ItemGroup>
+
 </Project>

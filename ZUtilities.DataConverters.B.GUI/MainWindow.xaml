@@ -4,9 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZUtilities.DataConverters.B.GUI"
+        xmlns:zCtrl="clr-namespace:ZUtilities.DataConverters.B.GUI.CustomCtrls.Controls;assembly=ZUtilities.DataConverters.B.GUI.CustomCtrls"
+        
         mc:Ignorable="d"
+        Background="#293955"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    
+    
+    
+    <Grid UseLayoutRounding="True" SnapsToDevicePixels="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="6" MaxWidth="6"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition MinWidth="6" MaxWidth="6"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="10"/>
+            <RowDefinition MinHeight="6" MaxHeight="6"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition MinHeight="6" MaxHeight="6"/>
+        </Grid.RowDefinitions>
 
+        <zCtrl:AppMenuCtrl x:Name="Part_AppMenu_appMenu" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0"/>
     </Grid>
 </Window>
